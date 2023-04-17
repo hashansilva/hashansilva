@@ -20,6 +20,7 @@ TypeScript, Angular through Maven, GIT, CI/CD, and Jenkins pipelines.
 <a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" alt="TypeScript" height="75" /></a>  
 <a href="https://angular.io/" target="_blank"><img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" alt="Angular" height="75" /></a>  
 <a href="https://www.java.com/" target="_blank"><img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" alt="Java" height="75" /></a>  
+  <a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://www.python.org/static/img/python-logo.png" alt="Python" height="75" /></a>  
 </div>
 
 </td></tr>
