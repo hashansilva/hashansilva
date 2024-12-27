@@ -1,18 +1,17 @@
 ## Shermal Hashan Silva
+**Location:** Luleå, Sweden  
+**Email:** hashan.silva@gmail.com  
+**Phone:** +46 70 305 81 21  
 
 <a href="https://github.com/hashansilva" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://github.com/hashan-silva" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 <a href="https://www.linkedin.com/in/hashan-silva" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>
 
-### PROFILE
-Accomplished professional with over eight years of experience in Software Engineering including software design and development, research and development and server maintenance. Competent in designing, developing and delivering scalable, high performance robust IT solutions/systems using Java, Oracle database, Sprint REST APIs,
-TypeScript, Angular through Maven, GIT, CI/CD, and Jenkins pipelines.
+👨‍💻 **Software Engineer | Tech Enthusiast | Problem Solver**  
+With over 8 years of experience in software design, development, and deployment, I specialize in building scalable, high-performance IT solutions. Proficient in modern technologies like **Java**, **Spring Framework**, **Angular**, and **AWS**, I thrive in Agile teams delivering impactful projects.
 
 ### TECHNICAL PROFICIENCIES  
 <table><tr><td valign="top" width="100%">
