@@ -1,10 +1,10 @@
 ## Shermal Hashan Silva
 **Senior Java Developer | Backend Specialist | DevOps Enthusiast**  
 📍 Based in Luleå, Sweden | Open to remote & hybrid roles across the EU
+- 💼 [LinkedIn](https://www.linkedin.com/in/hashan-silva/)
+- 💻 [GitHub](https://github.com/hashansilva)
+- ✉️ hashan.silva@gmail.com
 - 📱 (+46) 70 305 81 21
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hashan%20Silva-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hashan-silva/)
-[![GitHub](https://img.shields.io/badge/GitHub-hashansilva-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hashansilva)
-[![Email](https://img.shields.io/badge/Email-hashan.silva@gmail.com-D14836?style=for-the-badge&logo=g
 
 ---
 
