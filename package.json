@@ -1,0 +1,18 @@
+{
+    "name": "hashan-portfolio",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "astro": "^4.15.0",
+        "@astrojs/sitemap": "^3.1.5"
+    },
+    "devDependencies": {
+        "prettier": "^3.3.3"
+    }
+}

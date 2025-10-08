@@ -1,0 +1,50 @@
+---
+export interface Props {
+title: string;
+description?: string;
+image?: string; // path under /public
+url?: string; // canonical
+}
+const { title, description = 'Java & Cloud Engineer — Spring Boot, AWS, Kubernetes, Kafka', image = '/og-cover.jpg', url } = Astro.props as Props;
+const site = new URL(Astro.site || 'https://hashansilva.vercel.app');
+const canonical = url ? new URL(url, site).toString() : Astro.url.href;
+---
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={image} />
+<meta property="og:url" content={canonical} />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+<!-- Icons -->
+<link rel="icon" href="/favicon.svg" />
+<!-- Styles -->
+<link rel="preload" as="style" href="/src/styles.css" />
+<link rel="stylesheet" href="/src/styles.css" />
+<!-- JSON-LD Person Schema -->
+<script type="application/ld+json">
+{JSON.stringify({
+'@context': 'https://schema.org',
+'@type': 'Person',
+name: 'Hashan Silva',
+jobTitle: 'Software Developer',
+url: 'https://hashansilva.vercel.app',
+email: 'mailto:hashan.silva@gmail.com',
+telephone: '+46703058121',
+sameAs: [
+'https://github.com/hashansilva',
+'https://www.linkedin.com/in/hashan-silva/'
+]
+})}
+</script>
+</head>

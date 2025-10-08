@@ -1,5 +1,0 @@
-- [Home](/)
-- [Career Highlights](#career-highlights)
-- [Tech Toolbox](#tech-toolbox)
-- [Education](#education)
-- [Contact](#shermal-hashan-silva)

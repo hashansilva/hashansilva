@@ -1,0 +1,17 @@
+---
+export interface Props {
+role: string;
+company: string;
+location?: string;
+period: string;
+bullets: string[];
+}
+const { role, company, location, period, bullets } = Astro.props as Props;
+---
+<div class="item">
+<h3 style="margin:.2rem 0">{role} · {company}</h3>
+<p style="margin:.2rem 0;color:var(--muted)">{location} · {period}</p>
+<ul>
+{bullets.map(b => <li>{b}</li>)}
+</ul>
+</div>
