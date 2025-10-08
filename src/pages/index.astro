@@ -1,101 +1,172 @@
 ---
 import Base from '@/layouts/Base.astro';
 ---
+
 <Base title="Hashan Silva — Java & Cloud Engineer">
-<section id="about" class="card hero reveal">
-<img src="/avatar.jpg" alt="Hashan Silva" width="120" height="120" />
-<div>
-<h1 class="h1">Hashan Silva</h1>
-<p>Java & Cloud Engineer · Spring Boot · AWS · Kubernetes · Kafka</p>
-<p>
-<span class="badge">Java 8–17</span>
-<span class="badge">Spring Boot</span>
-<span class="badge">Docker</span>
-<span class="badge">Kubernetes</span>
-<span class="badge">Kafka</span>
-<span class="badge">AWS</span>
-</p>
-<p style="display:flex;gap:.6rem;flex-wrap:wrap">
-<a class="btn" href="#experience"><span class="material-icons-outlined">work</span>Experience</a>
-<a class="btn" href="#projects"><span class="material-icons-outlined">code</span>Projects</a>
-<a class="btn" href="#contact"><span class="material-icons-outlined">email</span>Contact</a>
-</p>
-</div>
-</section>
+  <!-- HERO / ABOUT -->
+  <section id="about" class="card hero reveal">
+    <img src="/avatar.jpg" alt="Hashan Silva" width="120" height="120" />
+    <div>
+      <h1 class="h1">Hashan Silva</h1>
+      <p>Java & Cloud Engineer · Spring Boot · AWS · Kubernetes · Kafka</p>
+      <p>
+        <span class="badge">Java 8–17</span>
+        <span class="badge">Spring Boot</span>
+        <span class="badge">Docker</span>
+        <span class="badge">Kubernetes</span>
+        <span class="badge">Kafka</span>
+        <span class="badge">AWS</span>
+      </p>
+      <p style="display:flex;gap:.6rem;flex-wrap:wrap">
+        <a class="btn" href="#experience"><span class="material-icons-outlined">work</span>Experience</a>
+        <a class="btn" href="#projects"><span class="material-icons-outlined">code</span>Projects</a>
+        <a class="btn" href="#skills"><span class="material-icons-outlined">build</span>Skills</a>
+        <a class="btn" href="#contact"><span class="material-icons-outlined">email</span>Contact</a>
+      </p>
+    </div>
+  </section>
 
+  <!-- EXPERIENCE -->
+  <section id="experience" class="card reveal">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      <div class="item">
+        <h3>Software Engineer Intern · Atjoo</h3>
+        <p class="muted">Luleå, Sweden · Jun 2025 – Present</p>
+        <ul>
+          <li>Built serverless microservices on AWS Lambda with Cognito auth.</li>
+          <li>Designed DynamoDB models for scalable data access.</li>
+          <li>Automated ingestion pipelines with Terraform and Python.</li>
+          <li>Contributed to CI workflows for an AI-driven medical platform.</li>
+        </ul>
+      </div>
 
-<section id="experience" class="card reveal">
-<h2 class="section-title">Experience</h2>
-<div class="timeline">
-<div class="item">
-<h3>Software Engineer Intern · Atjoo</h3>
-<p style="color:var(--md-sys-color-secondary)">Luleå, Sweden · Jun 2025 – Present</p>
-<ul>
-<li>Serverless microservices on AWS Lambda with Cognito auth.</li>
-<li>DynamoDB models for low-latency access & scalability.</li>
-<li>Terraform + Python pipelines to automate ingestion.</li>
-<li>CI for AI-driven medical platform integrations.</li>
-</ul>
-</div>
-<div class="item">
-<h3>Associate Technical Team Lead · CodeGen International</h3>
-<p style="color:var(--md-sys-color-secondary)">Colombo, Sri Lanka · Jan 2022 – May 2025</p>
-<ul>
-<li>Led 6 engineers migrating monolith to Docker/Kubernetes microservices.</li>
-<li>GitLab CI/CD automation reduced manual overhead by 65%.</li>
-<li>Code review automation with Python & ChatGPT cut cycle time by 40%.</li>
-<li>OWASP WebGoat enablement for 15+ engineers.</li>
-</ul>
-</div>
-<div class="item">
-<h3>Senior Software Engineer · CodeGen International</h3>
-<p style="color:var(--md-sys-color-secondary)">Colombo, Sri Lanka · Sep 2018 – Jan 2022</p>
-<ul>
-<li>Reservation modules (wide search, tour booking, loyalty).</li>
-<li>REST APIs & Angular front-ends for queue/setup modules.</li>
-<li>Agile practices across planning, grooming, retros.</li>
-</ul>
-</div>
-<div class="item">
-<h3>Senior Software Engineer · XiTech Pty Ltd</h3>
-<p style="color:var(--md-sys-color-secondary)">Colombo, Sri Lanka · Mar 2015 – Aug 2018</p>
-<ul>
-<li>ASP.NET Core + MS SQL real estate solutions.</li>
-<li>SportzStats hybrid app with NativeScript + TypeScript.</li>
-<li>Real estate scraping with Java + Selenium (25+ sites).</li>
-</ul>
-</div>
-<div class="item">
-</Base>
-<script is:inline>
-  // Smooth scroll
-  document.documentElement.style.scrollBehavior = 'smooth';
+      <div class="item">
+        <h3>Associate Technical Team Lead · CodeGen International</h3>
+        <p class="muted">Colombo, Sri Lanka · Jan 2022 – May 2025</p>
+        <ul>
+          <li>Led migration from monolith to Dockerized microservices.</li>
+          <li>Implemented GitLab CI/CD pipelines reducing deployment time 65%.</li>
+          <li>Introduced automated code reviews with Python + ChatGPT.</li>
+          <li>Trained 15+ engineers in OWASP secure coding practices.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-  const revealEls = document.querySelectorAll('.reveal');
+  <!-- PROJECTS -->
+  <section id="projects" class="card reveal">
+    <h2 class="section-title">Projects</h2>
+    <div class="timeline">
+      <div class="item">
+        <h3>Content Management Service</h3>
+        <p class="muted">Java + Angular · CodeGen International</p>
+        <ul>
+          <li>Developed microservices for dynamic travel content generation.</li>
+          <li>Integrated caching and Kafka-based event streaming.</li>
+          <li>Improved system performance by 70% with Redis optimization.</li>
+        </ul>
+      </div>
 
-  function showAll() {
-    revealEls.forEach(el => el.classList.add('show'));
-  }
+      <div class="item">
+        <h3>Serverless Healthcare Integrations</h3>
+        <p class="muted">AWS Lambda · Atjoo</p>
+        <ul>
+          <li>Designed serverless pipelines for medical data ingestion.</li>
+          <li>Used Terraform for automated infrastructure provisioning.</li>
+          <li>Integrated AI/ML APIs for predictive data enrichment.</li>
+        </ul>
+      </div>
 
-  if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver((entries) => {
-      for (const e of entries) {
-        if (e.isIntersecting) {
-          e.target.classList.add('show');
-          io.unobserve(e.target);
+      <div class="item">
+        <h3>Secure Coding Enablement</h3>
+        <p class="muted">Internal Project</p>
+        <ul>
+          <li>Led internal OWASP WebGoat rollout and awareness sessions.</li>
+          <li>Developed secure-coding templates for backend developers.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="card reveal">
+    <h2 class="section-title">Skills</h2>
+    <div class="timeline">
+      <div class="item">
+        <h3>Programming & Frameworks</h3>
+        <ul>
+          <li>Java (8–17), Kotlin, TypeScript, Python, PHP, C#, Swift</li>
+          <li>Spring Boot, Hibernate, JUnit, Mockito, Angular, React</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Cloud & DevOps</h3>
+        <ul>
+          <li>AWS (Lambda, Cognito, API Gateway, DynamoDB, CloudWatch)</li>
+          <li>Docker, Kubernetes, GitLab CI/CD, Terraform</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Data & Messaging</h3>
+        <ul>
+          <li>PostgreSQL, MySQL, Oracle, DynamoDB, Redis, Apache Kafka</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="card reveal">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+      <div class="item">
+        <h3>B.Sc. (Hons) in Computer Science</h3>
+        <p class="muted">University of Colombo · 2010 – 2014</p>
+        <ul>
+          <li>Graduated with First Class Honours.</li>
+          <li>Specialized in software engineering and distributed systems.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="card reveal">
+    <h2 class="section-title">Contact</h2>
+    <div class="timeline">
+      <div class="item">
+        <p><span class="material-icons-outlined">email</span> Email: <a href="mailto:hashan.silva@gmail.com">hashan.silva@gmail.com</a></p>
+        <p><span class="material-icons-outlined">work</span> LinkedIn: <a href="https://www.linkedin.com/in/hashan-silva/">linkedin.com/in/hashan-silva</a></p>
+        <p><span class="material-icons-outlined">code</span> GitHub: <a href="https://github.com/hashansilva">github.com/hashansilva</a></p>
+        <p><span class="material-icons-outlined">place</span> Luleå, Sweden</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reveal animation & smooth scroll -->
+  <script is:inline>
+    document.documentElement.style.scrollBehavior = 'smooth';
+    const revealEls = document.querySelectorAll('.reveal');
+
+    function showAll() { revealEls.forEach(el => el.classList.add('show')); }
+
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            e.target.classList.add('show');
+            io.unobserve(e.target);
+          }
         }
-      }
-    }, { threshold: 0.12 });
-
-    revealEls.forEach(el => io.observe(el));
-
-    // Safety: if nothing revealed in 1.5s, just show all
-    setTimeout(() => {
-      const anyShown = Array.from(revealEls).some(el => el.classList.contains('show'));
-      if (!anyShown) showAll();
-    }, 1500);
-  } else {
-    // Fallback for older browsers
-    showAll();
-  }
-</script>
+      }, { threshold: 0.12 });
+      revealEls.forEach(el => io.observe(el));
+      setTimeout(() => {
+        const anyShown = Array.from(revealEls).some(el => el.classList.contains('show'));
+        if (!anyShown) showAll();
+      }, 1500);
+    } else {
+      showAll();
+    }
+  </script>
+</Base>
