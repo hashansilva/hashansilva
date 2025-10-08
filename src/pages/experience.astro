@@ -1,0 +1,67 @@
+---
+import Base from '@/layouts/Base.astro';
+import TimelineItem from '@/components/TimelineItem.astro';
+---
+<Base title="Experience — Hashan Silva">
+<section class="card">
+<h2 class="section-title">Experience</h2>
+<div class="timeline">
+<TimelineItem
+role="Software Engineer Intern"
+company="Atjoo"
+location="Luleå, Sweden"
+period="Jun 2025 – Present"
+bullets={[
+'Built serverless microservices on AWS Lambda with Cognito-based authentication.',
+'Designed DynamoDB data models for low-latency access and scalability.',
+'Integrated external APIs using Terraform and Python to automate ingestion.',
+'Contributed to CI workflows for an AI-driven medical platform.'
+]}
+/>
+<TimelineItem
+role="Associate Technical Team Lead"
+company="CodeGen International"
+location="Colombo, Sri Lanka"
+period="Jan 2022 – May 2025"
+bullets={[
+'Led a 6-member team migrating a monolith to microservices with Docker & Kubernetes.',
+'Automated CI/CD with GitLab, reducing manual overhead by 65%.',
+'Introduced code review automation with Python & ChatGPT, cutting cycle time by 40%.',
+'Championed secure coding with OWASP WebGoat enablement for 15+ engineers.'
+]}
+/>
+<TimelineItem
+role="Senior Software Engineer"
+company="CodeGen International"
+location="Colombo, Sri Lanka"
+period="Sep 2018 – Jan 2022"
+bullets={[
+'Developed reservation modules (wide search, tour booking, loyalty).',
+'Built REST APIs & Angular front-ends for queue/setup modules.',
+'Practiced Agile across planning, grooming, and retrospectives.'
+]}
+/>
+<TimelineItem
+role="Senior Software Engineer"
+company="XiTech Pty Ltd"
+location="Colombo, Sri Lanka"
+period="Mar 2015 – Aug 2018"
+bullets={[
+'Built ASP.NET Core + MS SQL real estate solutions.',
+'Developed SportzStats hybrid app with NativeScript + TypeScript.',
+'Scraped real estate data using Java + Selenium across 25+ sites.'
+]}
+/>
+<TimelineItem
+role="Software Engineer"
+company="OrangeHRM Inc"
+location="Colombo, Sri Lanka"
+period="Jan 2014 – Feb 2015"
+bullets={[
+'Maintained open-source HR platform on PHP/Symfony/MySQL.',
+'Developed onboarding and Google authentication modules.'
+]}
+/>
+</div>
+</section>
+</Base>

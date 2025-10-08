@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hashansilva.vercel.app/sitemap-index.xml
