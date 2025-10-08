@@ -186,15 +186,20 @@ footer {
     }
 }
 
-
-/* Reveal-on-scroll animation */
+/* Reveal-on-scroll (safe defaults) */
 .reveal {
-    opacity: 0;
-    transform: translateY(16px);
+    opacity: 1;
+    transform: none;
     transition: opacity .6s ease, transform .6s ease;
 }
 
-.reveal.show {
+/* Only hide if JS is actually running */
+.js .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+}
+
+.js .reveal.show {
     opacity: 1;
     transform: none;
 }

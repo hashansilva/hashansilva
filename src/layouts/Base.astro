@@ -8,6 +8,9 @@ const { title = 'Hashan Silva — Software Developer', description } = Astro.pro
 <html lang="en">
 <SEO title={title} description={description} />
 <body>
+<script is:inline>
+    document.documentElement.classList.add('js');
+  </script>
 <Header />
 <main>
 <slot />
