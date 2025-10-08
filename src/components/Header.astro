@@ -1,15 +1,15 @@
 ---
 const links = [
-{ href: '/', label: 'Home' },
-{ href: '/experience', label: 'Experience' },
-{ href: '/projects', label: 'Projects' },
-{ href: '/skills', label: 'Skills' },
-{ href: '/contact', label: 'Contact' },
+{ href: '#about', label: 'About' },
+{ href: '#experience', label: 'Experience' },
+{ href: '#projects', label: 'Projects' },
+{ href: '#skills', label: 'Skills' },
+{ href: '#contact', label: 'Contact' },
 ];
 ---
-<header style="display:flex;align-items:center;justify-content:space-between">
-<a href="/" style="font-weight:800;letter-spacing:.02em">HS</a>
-<nav style="display:flex;gap:1rem;flex-wrap:wrap">
+<header class="app-bar">
+<a class="brand" href="#about">HS</a>
+<nav>
 {links.map(l => <a href={l.href}>{l.label}</a>)}
 </nav>
 </header>

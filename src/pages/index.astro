@@ -2,8 +2,8 @@
 import Base from '@/layouts/Base.astro';
 ---
 <Base title="Hashan Silva — Java & Cloud Engineer">
-<section class="card hero">
-<img src="/avatar.jpg" alt="Hashan Silva" width="120" height="120" style="border-radius:16px;object-fit:cover" />
+<section id="about" class="card hero reveal">
+<img src="/avatar.jpg" alt="Hashan Silva" width="120" height="120" />
 <div>
 <h1 class="h1">Hashan Silva</h1>
 <p>Java & Cloud Engineer · Spring Boot · AWS · Kubernetes · Kafka</p>
@@ -16,22 +16,54 @@ import Base from '@/layouts/Base.astro';
 <span class="badge">AWS</span>
 </p>
 <p style="display:flex;gap:.6rem;flex-wrap:wrap">
-<a class="btn" href="/experience">Experience</a>
-<a class="btn" href="/projects">Projects</a>
-<a class="btn" href="/contact">Contact</a>
+<a class="btn" href="#experience"><span class="material-icons-outlined">work</span>Experience</a>
+<a class="btn" href="#projects"><span class="material-icons-outlined">code</span>Projects</a>
+<a class="btn" href="#contact"><span class="material-icons-outlined">email</span>Contact</a>
 </p>
 </div>
 </section>
 
 
-<section style="margin-top:1.5rem" class="grid">
-<div class="card" style="grid-column: span 12;">
-<h2 class="section-title">Profile</h2>
-<p>
-Results-driven Java Developer with 8+ years’ experience building scalable microservices and backend
-systems using Java, Spring Boot, and AWS. Skilled in Docker, Kubernetes, Kafka, and CI/CD, with proven
-success improving performance, resilience, and deployment speed in high-traffic production environments.
-</p>
+<section id="experience" class="card reveal">
+<h2 class="section-title">Experience</h2>
+<div class="timeline">
+<div class="item">
+<h3>Software Engineer Intern · Atjoo</h3>
+<p style="color:var(--md-sys-color-secondary)">Luleå, Sweden · Jun 2025 – Present</p>
+<ul>
+<li>Serverless microservices on AWS Lambda with Cognito auth.</li>
+<li>DynamoDB models for low-latency access & scalability.</li>
+<li>Terraform + Python pipelines to automate ingestion.</li>
+<li>CI for AI-driven medical platform integrations.</li>
+</ul>
 </div>
-</section>
+<div class="item">
+<h3>Associate Technical Team Lead · CodeGen International</h3>
+<p style="color:var(--md-sys-color-secondary)">Colombo, Sri Lanka · Jan 2022 – May 2025</p>
+<ul>
+<li>Led 6 engineers migrating monolith to Docker/Kubernetes microservices.</li>
+<li>GitLab CI/CD automation reduced manual overhead by 65%.</li>
+<li>Code review automation with Python & ChatGPT cut cycle time by 40%.</li>
+<li>OWASP WebGoat enablement for 15+ engineers.</li>
+</ul>
+</div>
+<div class="item">
+<h3>Senior Software Engineer · CodeGen International</h3>
+<p style="color:var(--md-sys-color-secondary)">Colombo, Sri Lanka · Sep 2018 – Jan 2022</p>
+<ul>
+<li>Reservation modules (wide search, tour booking, loyalty).</li>
+<li>REST APIs & Angular front-ends for queue/setup modules.</li>
+<li>Agile practices across planning, grooming, retros.</li>
+</ul>
+</div>
+<div class="item">
+<h3>Senior Software Engineer · XiTech Pty Ltd</h3>
+<p style="color:var(--md-sys-color-secondary)">Colombo, Sri Lanka · Mar 2015 – Aug 2018</p>
+<ul>
+<li>ASP.NET Core + MS SQL real estate solutions.</li>
+<li>SportzStats hybrid app with NativeScript + TypeScript.</li>
+<li>Real estate scraping with Java + Selenium (25+ sites).</li>
+</ul>
+</div>
+<div class="item">
 </Base>
