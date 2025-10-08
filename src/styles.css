@@ -146,6 +146,15 @@ a:hover {
     margin-bottom: 1rem;
 }
 
+.timeline .item .contact {
+    align-items: center;
+    display: flex;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
 
 /* Buttons */
 .btn {
