@@ -8,7 +8,7 @@ import Base from '@/layouts/Base.astro';
     <img src="/avatar.jpg" alt="Hashan Silva" width="120" height="120" />
     <div>
       <h1 class="h1">Hashan Silva</h1>
-      <p>Java & Cloud Engineer · Spring Boot · AWS · Kubernetes · Kafka</p>
+      <p>Senior Java Developer | AWS | Spring Boot | Microservices | Angular</p>
       <p>
         <span class="badge">Java 8–17</span>
         <span class="badge">Spring Boot</span>
@@ -16,11 +16,13 @@ import Base from '@/layouts/Base.astro';
         <span class="badge">Kubernetes</span>
         <span class="badge">Kafka</span>
         <span class="badge">AWS</span>
+        <span class="badge">Angular</span>
+        <span class="badge">Microservices</span>
       </p>
       <p style="display:flex;gap:.6rem;flex-wrap:wrap">
         <a class="btn" href="#experience"><span class="material-icons-outlined">work</span>Experience</a>
-        <a class="btn" href="#projects"><span class="material-icons-outlined">code</span>Projects</a>
         <a class="btn" href="#skills"><span class="material-icons-outlined">build</span>Skills</a>
+        <a class="btn" href="#languages"><span class="material-icons-outlined">language</span>Projects</a>
         <a class="btn" href="#contact"><span class="material-icons-outlined">email</span>Contact</a>
       </p>
     </div>
@@ -34,10 +36,11 @@ import Base from '@/layouts/Base.astro';
         <h3>Software Engineer Intern · Atjoo</h3>
         <p class="muted">Luleå, Sweden · Jun 2025 – Present</p>
         <ul>
-          <li>Built serverless microservices on AWS Lambda with Cognito auth.</li>
-          <li>Designed DynamoDB models for scalable data access.</li>
-          <li>Automated ingestion pipelines with Terraform and Python.</li>
-          <li>Contributed to CI workflows for an AI-driven medical platform.</li>
+          <li>Built serverless microservices on AWS Lambda with Cognito authentication, ensuring secure and scalable cloud architecture.</li>
+          <li>Designed optimized DynamoDB NoSQL schemas for low-latency, high-throughput access.</li>
+          <li>Integrated external APIs using Terraform and Python, automating data ingestion for an AI-driven healthcare platform.</li>
+          <li>Enhanced CI workflows to support rapid iteration and reliable distributed releases.</li>
+          <li>Collaborated in Agile planning and backlog prioritization to improve product stability and delivery quality.</li>
         </ul>
       </div>
 
@@ -45,45 +48,45 @@ import Base from '@/layouts/Base.astro';
         <h3>Associate Technical Team Lead · CodeGen International</h3>
         <p class="muted">Colombo, Sri Lanka · Jan 2022 – May 2025</p>
         <ul>
-          <li>Led migration from monolith to Dockerized microservices.</li>
-          <li>Implemented GitLab CI/CD pipelines reducing deployment time 65%.</li>
-          <li>Introduced automated code reviews with Python + ChatGPT.</li>
-          <li>Trained 15+ engineers in OWASP secure coding practices.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects" class="card reveal">
-    <h2 class="section-title">Projects</h2>
-    <div class="timeline">
-      <div class="item">
-        <h3>Content Management Service</h3>
-        <p class="muted">Java + Angular · CodeGen International</p>
-        <ul>
-          <li>Developed microservices for dynamic travel content generation.</li>
-          <li>Integrated caching and Kafka-based event streaming.</li>
-          <li>Improved system performance by 70% with Redis optimization.</li>
+          <li>Led a 6-member team in migrating a monolithic travel platform to cloud-native microservices using Docker and Kubernetes, improving scalability and deployment speed.</li>
+          <li>Designed and developed a Java + Angular “Content Management Service” for dynamic travel content management.</li>
+          <li>Automated CI/CD pipelines with GitLab, cutting manual deployment overhead by 65%.</li>
+          <li>Implemented code review automation using Python and ChatGPT, reducing review cycle time by 40%.</li>
+          <li>Deployed OWASP WebGoat internally and trained 15+ engineers in secure coding practices.</li>
+          <li>Managed the full software lifecycle — requirements, architecture, development, integration, testing, and deployment.</li>
+          <li>Mentored junior developers and led cross-team knowledge-sharing sessions to promote best practices.</li>
         </ul>
       </div>
 
       <div class="item">
-        <h3>Serverless Healthcare Integrations</h3>
-        <p class="muted">AWS Lambda · Atjoo</p>
+        <h3>Senior Software Engineer · CodeGen International</h3>
+        <p class="muted">Colombo, Sri Lanka · Sep 2018 – Jan 2022</p>
         <ul>
-          <li>Designed serverless pipelines for medical data ingestion.</li>
-          <li>Used Terraform for automated infrastructure provisioning.</li>
-          <li>Integrated AI/ML APIs for predictive data enrichment.</li>
+          <li>Developed reservation modules including wide search, tour booking, and loyalty program integration.</li>
+          <li>Built REST APIs and Angular front-end components for Queue and Setup modules using Spring.</li>
+          <li>Collaborated with QA and DevOps to deliver end-to-end releases with automated unit and integration testing.</li>
+          <li>Actively participated in Agile ceremonies — sprint planning, backlog grooming, and retrospectives.</li>
         </ul>
       </div>
 
       <div class="item">
-        <h3>Secure Coding Enablement</h3>
-        <p class="muted">Internal Project</p>
+        <h3>Senior Software Engineer · XiTech Pty Ltd</h3>
+        <p class="muted">Colombo, Sri Lanka · Mar 2015 – Aug 2018</p>
         <ul>
-          <li>Led internal OWASP WebGoat rollout and awareness sessions.</li>
-          <li>Developed secure-coding templates for backend developers.</li>
+          <li>Built ASP.NET Core web applications with MS SQL for real estate and enterprise clients.</li>
+          <li>Developed SportzStats hybrid mobile app using NativeScript and TypeScript.</li>
+          <li>Created web scrapers with Java + Selenium to extract property data from 25+ real estate platforms.</li>
+          <li>Built a native iOS travel guide app in Swift for the tourism sector.</li>
+          <li>Administered Active Directory, OpenVPN, AWS, and Google Workspace, improving overall infrastructure reliability.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <h3>Software Engineer · OrangeHRM Inc.</h3>
+        <p class="muted">Colombo, Sri Lanka · Jan 2014 – Feb 2015</p>
+        <ul>
+          <li>Maintained open-source HR platform using PHP, Symfony, and MySQL on LAMP stack.</li>
+          <li>Developed onboarding module and Google+ authentication integration, streamlining user sign-ups</li>
         </ul>
       </div>
     </div>
@@ -97,20 +100,34 @@ import Base from '@/layouts/Base.astro';
         <h3>Programming & Frameworks</h3>
         <ul>
           <li>Java (8–17), Kotlin, TypeScript, Python, PHP, C#, Swift</li>
-          <li>Spring Boot, Hibernate, JUnit, Mockito, Angular, React</li>
+          <li>Spring Boot, Hibernate, JUnit, Mockito, Angular, React, ASP.NET Core</li>
         </ul>
       </div>
       <div class="item">
         <h3>Cloud & DevOps</h3>
         <ul>
           <li>AWS (Lambda, Cognito, API Gateway, DynamoDB, CloudWatch)</li>
-          <li>Docker, Kubernetes, GitLab CI/CD, Terraform</li>
+          <li>Docker, Kubernetes, GitLab CI/CD, Terraform, Linux</li>
         </ul>
       </div>
       <div class="item">
         <h3>Data & Messaging</h3>
         <ul>
           <li>PostgreSQL, MySQL, Oracle, DynamoDB, Redis, Apache Kafka</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Tools & Practices</h3>
+        <ul>
+          <li>IntelliJ, Eclipse, Jenkins, VS Code, Jenkins, Jira, Maven, Git</li>
+          <li>Agile Scrum, TDD, Secure Coding, Microservices, Rest APIs</li>
+          <li>OAuth 2.0, JWT</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Leadership, Mentorship, Collaboration, Communication, Problem-Solving, Continuous Learning</li>
         </ul>
       </div>
     </div>
@@ -121,12 +138,39 @@ import Base from '@/layouts/Base.astro';
     <h2 class="section-title">Education</h2>
     <div class="timeline">
       <div class="item">
-        <h3>B.Sc. (Hons) in Computer Science</h3>
-        <p class="muted">University of Colombo · 2010 – 2014</p>
+        <h3>B.Sc. (Hons) in Computer Science — Second Class (Lower Division)</h3>
+        <p class="muted">University of Colombo (School of Computing) - Sri Lanka· 2009 – 2014</p>
         <ul>
-          <li>Graduated with First Class Honours.</li>
-          <li>Specialized in software engineering and distributed systems.</li>
+          <li>
+            <strong>Final Year Project:</strong> 
+            “Automated Constructing an e-Profile from Web Contents for Academia” — 
+            built an academic profile builder using <strong>Google Search API</strong>, 
+            <strong>XPath-based scraping</strong>, and <strong>NLP categorization</strong> to 
+            automatically extract publication and achievement data.
+          </li>
+          <li>Gained hands-on experience in <strong>web crawling</strong>, <strong>automation</strong>, and <strong>data modeling</strong>.</li>
         </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- LANGUAGES -->
+  <section id="languages" class="card reveal">
+    <h2 class="section-title">Languages</h2>
+    <div class="timeline">
+      <div class="item">
+        <h3>English</h3>
+        <p class="muted">Full Professional Proficiency</p>
+      </div>
+
+      <div class="item">
+        <h3>Swedish</h3>
+        <p class="muted">Currently attending <strong>SFI C Class</strong> (Swedish for Immigrants)</p>
+      </div>
+
+      <div class="item">
+        <h3>Sinhala</h3>
+        <p class="muted">Native Language</p>
       </div>
     </div>
   </section>
@@ -136,6 +180,7 @@ import Base from '@/layouts/Base.astro';
     <h2 class="section-title">Contact</h2>
     <div class="timeline">
       <div class="item">
+        <p class="contact"><span class="pr-10 material-icons-outlined">call</span>+46 70 305 8121</p>
         <p class="contact"><span class="pr-10 material-icons-outlined">email</span> Email: <a href="mailto:hashan.silva@gmail.com">hashan.silva@gmail.com</a></p>
         <p class="contact"><span class="pr-10 material-icons-outlined">work</span> LinkedIn: <a href="https://www.linkedin.com/in/hashan-silva/">linkedin.com/in/hashan-silva</a></p>
         <p class="contact"><span class="pr-10 material-icons-outlined">code</span> GitHub: <a href="https://github.com/hashansilva">github.com/hashansilva</a></p>
